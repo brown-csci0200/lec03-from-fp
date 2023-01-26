@@ -8,6 +8,7 @@
 out/
 
 .idea/vcs.xml
+.idea/misc.xml
 
 # Log file
 *.log
