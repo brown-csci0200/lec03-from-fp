@@ -8,6 +8,7 @@ import org.junit.runners.MethodSorters;
 public class AnimalsTest {
 
     Dillo babyDillo = new Dillo(5,false);
+
     /**
      * Example test method.
      * Test methods must have @Test before the method
@@ -21,4 +22,5 @@ public class AnimalsTest {
     public void testMakeDillo() {
         Assert.assertEquals(babyDillo.length, 5);
     }
+
 }
