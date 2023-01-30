@@ -4,6 +4,8 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner {
   public static void main(String[] args) {
+
+    // Runs the tests
     Result result = JUnitCore.runClasses(AnimalsTest.class);
     for (Failure failure : result.getFailures()) {
       System.out.println(failure.toString());

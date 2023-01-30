@@ -1,7 +1,7 @@
 /**
  * Represents a Boa
  */
-public class Boa {
+public class Boa implements IAnimal {
     public String name;
     public int length;
     public String eats;

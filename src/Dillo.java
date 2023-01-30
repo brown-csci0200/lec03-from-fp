@@ -1,7 +1,7 @@
 /**
  * Represents a Dillo
  */
-public class Dillo {
+public class Dillo implements IAnimal {
     int length;
     boolean isDead;
 
