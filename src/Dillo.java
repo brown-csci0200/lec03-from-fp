@@ -1,9 +1,10 @@
+package src;
 /**
  * Represents a Dillo
  */
 public class Dillo {
-    int length;
-    boolean isDead;
+    public int length;
+    public boolean isDead;
 
     public Dillo(int howLong, boolean isD) {
         this.length = howLong;
@@ -15,5 +16,13 @@ public class Dillo {
      */
     public boolean canShelter() {
         return (this.length > 60) && (this.isDead);
+    }
+
+    /**
+     * @param other Another Dillo
+     * @return true if current Dillo is bigger than other Dillo
+     */
+    public boolean isBigger(Dillo other) {
+        return this.length > other.length;
     }
 }
