@@ -2,7 +2,7 @@ package src;
 /**
  * Represents a Dillo
  */
-public class Dillo {
+public class Dillo implements IAnimal {
     public int length;
     public boolean isDead;
 
@@ -24,5 +24,9 @@ public class Dillo {
      */
     public boolean isBigger(Dillo other) {
         return this.length > other.length;
+    }
+
+    public boolean isHealthy() {
+        return (this.length > 12 && this.length < 24);
     }
 }
